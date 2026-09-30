@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distributor Telur Berkualitas & Grosir | PT. ARTA OVENTA TELUR</title>
+    <meta name="description" content="PT. ARTA OVENTA TELUR adalah pemasok telur segar berkualitas untuk kebutuhan rumah tangga dan bisnis di Semarang. Harga grosir kompetitif, stok rutin, dan layanan pengiriman.">
+    <meta name="keywords" content="distributor telur semarang, grosir telur ayam, agen telur terdekat, telur ayam negeri, telur ayam kampung, telur omega, supplier telur hajatan, telur ayam murah">
+    <meta name="author" content="SolusiLokal">
+    <meta name="robots" content="index, follow">
+    <link rel="icon" href="gambarasset/favicon.ico" type="image/png">
+    
+    <!-- Open Graph for Social Media -->
+    <meta property="og:title" content="PT. ARTA OVENTA TELUR - Suplier Telur Terpercaya">
+    <meta property="og:description" content="Sedia berbagai jenis telur segar dengan stok melimpah, harga bersaing, dan layanan antar cepat untuk bisnis kuliner Anda.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.solusilokal.id/">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- AOS Animation CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            green: '#10b981', // Emerald 500 (Fresh, Natural)
+                            darkgreen: '#047857',
+                            yellow: '#f59e0b', // Amber 500 (Egg Yolk)
+                            darkyellow: '#d97706',
+                            cream: '#fdfbf7', // Clean, warm background
+                            brown: '#78350f', // Text contrast
+                        }
+                    },
+                    boxShadow: {
+                        'soft': '0 4px 20px -2px rgba(0, 0, 0, 0.05)',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom Styles for aesthetics */
+        body { background-color: #fdfbf7; color: #334155; }
+        .bg-gradient-hero { background: linear-gradient(135deg, #dcfce7 0%, #f0fdf4 50%, #fef9c3 100%); }
+        .text-gradient { background: linear-gradient(to right, #047857, #f59e0b); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .glass-nav { background: rgba(255, 255, 255, 0.9); backdrop-filter: blur(10px); }
+        /* Hide scrollbar for gallery */
+        .no-scrollbar::-webkit-scrollbar { display: none; }
+        .no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+    </style>
+</head>
+<body class="antialiased font-sans">
+
+    <header class="fixed w-full top-0 z-50 glass-nav border-b border-gray-100 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="flex justify-between items-center h-16">
+                <!-- Logo & Business Name -->
+                <a href="#" class="flex items-center gap-2.5 hover:opacity-80 transition-opacity cursor-pointer">
+                    <img src="gambarasset/logo.webp" alt="Logo PT. ARTA OVENTA TELUR" class="w-9 h-9 rounded-full object-cover">
+                    <span class="font-bold text-base md:text-lg leading-none text-gray-900 tracking-tight">PT. ARTA OVENTA TELUR</span>
+                </a>
+
+                <!-- Desktop Nav -->
+                <nav class="hidden md:flex items-center gap-6 font-medium text-gray-600 text-sm">
+                    <a href="#profil" class="hover:text-brand-green transition-colors">Profil</a>
+                    <a href="#produk" class="hover:text-brand-green transition-colors">Katalog Produk</a>
+                    <a href="#layanan" class="hover:text-brand-green transition-colors">Layanan</a>
+                    <a href="#pemesanan" class="hover:text-brand-green transition-colors">Cara Pesan</a>
+                </nav>
+
+                <!-- CTA Button -->
+                <div class="hidden md:flex">
+                    <a href="https://wa.me/6289529605601?text=Halo%20PT.%20ARTA%20OVENTA%20TELUR,%20saya%20ingin%20tanya%20harga%20grosir..." target="_blank" class="bg-brand-yellow hover:bg-brand-darkyellow text-white px-5 py-2 rounded-full font-semibold text-sm shadow-soft transition-all transform hover:-translate-y-0.5 flex items-center gap-2">
+                        <i class="fab fa-whatsapp text-base"></i> Tanya Harga
+                    </a>
+                </div>
+
+                <!-- Mobile menu button -->
+                <div class="md:hidden flex items-center">
+                    <button id="mobile-menu-btn" class="text-gray-700 hover:text-brand-green focus:outline-none">
+                        <i class="fas fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Nav Dropdown -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-100 shadow-lg absolute w-full">
+            <div class="px-4 py-4 space-y-2 flex flex-col">
+                <a href="#profil" class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-md">Profil</a>
+                <a href="#produk" class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-md">Katalog Produk</a>
+                <a href="#layanan" class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-md">Layanan & Fasilitas</a>
+                <a href="#pemesanan" class="block px-3 py-2 text-sm font-medium text-gray-700 hover:text-brand-green hover:bg-green-50 rounded-md">Cara Pesan</a>
+                <a href="https://wa.me/6289529605601" class="block w-full text-center mt-3 bg-brand-green text-white px-4 py-2.5 rounded-lg font-semibold text-sm">
+                    <i class="fab fa-whatsapp mr-2"></i> Hubungi Kami
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="relative pt-24 pb-16 lg:pt-36 lg:pb-20 overflow-hidden bg-gradient-hero">
+        <!-- Background decorative elements -->
+        <div class="absolute top-0 right-0 -mr-20 -mt-20 w-80 h-80 rounded-full bg-brand-yellow/10 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 -ml-20 -mb-20 w-72 h-72 rounded-full bg-brand-green/10 blur-3xl"></div>
+
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24 relative z-10">
+            <div class="flex flex-col lg:flex-row items-center gap-10 lg:gap-16">
+                <!-- Copywriting Hero -->
+                <div class="w-full lg:w-1/2" data-aos="fade-right">
+                    <div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-green-100 text-brand-darkgreen font-semibold text-xs mb-5">
+                        <span class="relative flex h-2.5 w-2.5">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-2.5 w-2.5 bg-brand-green"></span>
+                        </span>
+                        Stok Rutin & Selalu Segar
+                    </div>
+                    <h1 class="text-3xl md:text-4xl lg:text-5xl font-extrabold text-gray-900 leading-[1.15] mb-5">
+                        Distributor Telur <span class="text-gradient">Terbaik & Terpercaya</span> untuk Bisnis Anda
+                    </h1>
+                    <p class="text-base md:text-lg text-gray-600 mb-6 leading-relaxed">
+                        Kami menyediakan berbagai jenis telur segar dengan kualitas sortir terbaik. Stok melimpah, harga kompetitif, dan siap kirim untuk kebutuhan rumah tangga, warung, bakery, hingga industri katering.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-3">
+                        <a href="#produk" class="px-6 py-3 bg-brand-green hover:bg-brand-darkgreen text-white text-center rounded-xl font-bold shadow-lg shadow-green-500/30 transition-all transform hover:-translate-y-1 text-sm md:text-base">
+                            Pesan Sekarang
+                        </a>
+                        <a href="https://wa.me/6289529605601" target="_blank" class="px-6 py-3 bg-white border-2 border-gray-200 hover:border-brand-yellow text-gray-700 hover:text-brand-darkyellow text-center rounded-xl font-bold transition-all flex items-center justify-center gap-2 text-sm md:text-base">
+                            <i class="fab fa-whatsapp text-lg"></i> Tanya Harga Grosir
+                        </a>
+                    </div>
+                    
+                    <!-- Quick Stats -->
+                    <div class="grid grid-cols-3 gap-4 mt-10 pt-6 border-t border-gray-200">
+                        <div>
+                            <p class="text-2xl font-extrabold text-gray-900">100%</p>
+                            <p class="text-xs font-medium text-gray-500 mt-0.5">Telur Segar Pilihan</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-extrabold text-gray-900">Setiap Hari</p>
+                            <p class="text-xs font-medium text-gray-500 mt-0.5">Pengiriman Cepat</p>
+                        </div>
+                        <div>
+                            <p class="text-2xl font-extrabold text-gray-900">Ribuan</p>
+                            <p class="text-xs font-medium text-gray-500 mt-0.5">Pelanggan Aktif</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hero Image -->
+                <div class="w-full lg:w-1/2" data-aos="fade-left" data-aos-delay="200">
+                    <div class="relative rounded-2xl overflow-hidden shadow-xl shadow-brand-brown/5 border-4 border-white">
+                        <img src="gambarasset/hero.webp" alt="Distributor Telur Segar Berkualitas" class="w-full h-auto object-cover aspect-[4/3]">
+                        
+                        <!-- Floating Badge -->
+                        <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur-sm p-3 rounded-xl shadow-lg flex items-center gap-3">
+                            <div class="bg-brand-yellow text-white w-10 h-10 rounded-full flex items-center justify-center text-lg">
+                                <i class="fas fa-truck-fast"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] font-bold text-gray-500 uppercase tracking-wider">Layanan Distribusi</p>
+                                <p class="text-xs font-bold text-gray-900">Gratis Ongkir area tertentu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="profil" class="py-16 bg-green-50">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="text-center max-w-3xl mx-auto mb-12" data-aos="fade-up">
+                <h2 class="text-xs font-bold text-brand-yellow uppercase tracking-widest mb-2">Profil Usaha</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-4">Mengenal PT. ARTA OVENTA TELUR</h3>
+                <p class="text-sm md:text-base text-gray-600 leading-relaxed">
+                    Berdiri dengan komitmen untuk menyediakan sumber protein terbaik, kami hadir sebagai mitra tepercaya bagi bisnis dan keluarga Anda. Berlokasi strategis di <strong>Semarang</strong>, kami mendistribusikan puluhan ribu telur segar setiap harinya dari peternakan pilihan yang melalui proses Quality Control (QC) ketat sebelum sampai di tangan Anda.
+                </p>
+            </div>
+
+            <!-- Advantages Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="100">
+                    <div class="w-12 h-12 bg-green-100 text-brand-green rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h4 class="text-base font-bold text-gray-900 mb-2">Kualitas Telur Pilihan</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">Telur disortir dengan standar tinggi, cangkang bersih, kuning telur pekat, dan dijamin kesegarannya langsung dari peternakan.</p>
+                </div>
+                <!-- Card 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+                    <div class="w-12 h-12 bg-yellow-100 text-brand-yellow rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-boxes-stacked"></i>
+                    </div>
+                    <h4 class="text-base font-bold text-gray-900 mb-2">Stok Rutin & Aman</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">Kapasitas gudang besar memastikan ketersediaan stok setiap hari. Kami siap memenuhi permintaan pesanan partai besar tanpa khawatir kehabisan.</p>
+                </div>
+                <!-- Card 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-12 h-12 bg-orange-100 text-brand-darkyellow rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-tags"></i>
+                    </div>
+                    <h4 class="text-base font-bold text-gray-900 mb-2">Harga Sangat Kompetitif</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">Harga langsung dari tangan pertama yang sangat bersaing. Semakin besar volume pembelian, semakin murah harga yang Anda dapatkan.</p>
+                </div>
+                <!-- Card 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-truck-loading"></i>
+                    </div>
+                    <h4 class="text-base font-bold text-gray-900 mb-2">Layanan Pengiriman</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">Didukung armada pengiriman yang memadai dan supir berpengalaman untuk memastikan telur sampai dengan aman dan tepat waktu.</p>
+                </div>
+                <!-- Card 5 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="500">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-mobile-screen"></i>
+                    </div>
+                    <h4 class="text-base font-bold text-gray-900 mb-2">Pemesanan Fleksibel</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">Proses pemesanan sangat mudah melalui WhatsApp dengan respon cepat (fast response) dan berbagai pilihan metode pembayaran.</p>
+                </div>
+                <!-- Card 6 -->
+                <div class="bg-white rounded-xl p-6 shadow-sm border border-gray-100 hover:-translate-y-1 transition-transform duration-300" data-aos="fade-up" data-aos-delay="600">
+                    <div class="w-12 h-12 bg-rose-100 text-rose-600 rounded-lg flex items-center justify-center text-xl mb-4">
+                        <i class="fas fa-store"></i>
+                    </div>
+                    <h4 class="text-base font-bold text-gray-900 mb-2">Cocok untuk Semua</h4>
+                    <p class="text-sm text-gray-600 leading-relaxed">Menyuplai kebutuhan Warung Kelontong, Minimarket, Restoran, Hotel, Bakery, Katering Hajatan, UMKM Makanan, hingga konsumsi harian.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="produk" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-10" data-aos="fade-up">
+                <div class="max-w-2xl">
+                    <h2 class="text-xs font-bold text-brand-green uppercase tracking-widest mb-2">Katalog Produk</h2>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Pilihan Telur Berkualitas</h3>
+                    <p class="text-sm text-gray-600">Tersedia berbagai jenis telur segar dengan pilihan kemasan eceran maupun grosir. Harga di bawah bersifat estimasi dan dapat berubah sesuai harga pasar harian.</p>
+                </div>
+                <div class="mt-4 md:mt-0">
+                    <a href="https://wa.me/6289529605601?text=Halo%20Admin,%20minta%20update%20daftar%20harga%20telur%20hari%20ini%20dong" target="_blank" class="inline-flex items-center gap-2 text-sm text-brand-darkgreen font-semibold hover:text-brand-yellow transition-colors">
+                        Minta Update Harga Hari Ini <i class="fas fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <!-- 5 Slots Product Grid -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-5">
+                <!-- Product 1 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border-2 border-gray-200 hover:border-brand-green transition-colors group cursor-pointer" data-aos="fade-up" data-aos-delay="100">
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="gambarasset/telur1.webp" alt="Telur Ayam Negeri" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-2 left-2 bg-brand-green text-white text-[10px] font-bold px-2.5 py-1 rounded-full">Paling Laris</div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-base font-bold text-gray-900 mb-1">Telur Ayam Negeri</h4>
+                        <p class="text-xs text-gray-500 mb-3 line-clamp-2">Cangkang cokelat, ukuran bervariasi (Kecil/Sedang/Besar).</p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-3 mb-1.5">
+                            <span class="text-[10px] font-medium text-gray-500">Harga Eceran mulai</span>
+                            <span class="text-xs font-bold text-brand-darkgreen">[Harga Harian] /kg</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] font-medium text-gray-500">Harga Grosir/Peti</span>
+                            <span class="text-xs font-bold text-brand-yellow">Hubungi Kami</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 2 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border-2 border-gray-200 hover:border-brand-green transition-colors group cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="gambarasset/telur2.webp" alt="Telur Ayam Kampung" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-base font-bold text-gray-900 mb-1">Telur Ayam Kampung</h4>
+                        <p class="text-xs text-gray-500 mb-3 line-clamp-2">Warna putih alami, nutrisi tinggi, cocok untuk jamu/kesehatan.</p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-3 mb-1.5">
+                            <span class="text-[10px] font-medium text-gray-500">Harga Eceran mulai</span>
+                            <span class="text-xs font-bold text-brand-darkgreen">[Harga Harian] /butir</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] font-medium text-gray-500">Grosir / Tray</span>
+                            <span class="text-xs font-bold text-brand-yellow">Hubungi Kami</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 3 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border-2 border-gray-200 hover:border-brand-green transition-colors group cursor-pointer" data-aos="fade-up" data-aos-delay="300">
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="gambarasset/telur3.webp" alt="Telur Omega" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                        <div class="absolute top-2 left-2 bg-brand-yellow text-white text-[10px] font-bold px-2.5 py-1 rounded-full">Premium</div>
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-base font-bold text-gray-900 mb-1">Telur Omega 3</h4>
+                        <p class="text-xs text-gray-500 mb-3 line-clamp-2">Kuning telur lebih pekat kemerahan, kaya DHA & Omega 3.</p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-3 mb-1.5">
+                            <span class="text-[10px] font-medium text-gray-500">Harga Eceran mulai</span>
+                            <span class="text-xs font-bold text-brand-darkgreen">[Harga Harian] /pack</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] font-medium text-gray-500">Grosir / Dus</span>
+                            <span class="text-xs font-bold text-brand-yellow">Hubungi Kami</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 4 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border-2 border-gray-200 hover:border-brand-green transition-colors group cursor-pointer" data-aos="fade-up" data-aos-delay="400">
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="gambarasset/telur4.webp" alt="Telur Bebek" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-base font-bold text-gray-900 mb-1">Telur Bebek</h4>
+                        <p class="text-xs text-gray-500 mb-3 line-clamp-2">Ukuran lebih besar, tekstur kenyal, ideal untuk martabak/lauk.</p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-3 mb-1.5">
+                            <span class="text-[10px] font-medium text-gray-500">Harga Eceran mulai</span>
+                            <span class="text-xs font-bold text-brand-darkgreen">[Harga Harian] /butir</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] font-medium text-gray-500">Grosir / Tray</span>
+                            <span class="text-xs font-bold text-brand-yellow">Hubungi Kami</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product 5 -->
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border-2 border-gray-200 hover:border-brand-green transition-colors group cursor-pointer" data-aos="fade-up" data-aos-delay="500">
+                    <div class="relative h-40 overflow-hidden">
+                        <img src="gambarasset/telur5.webp" alt="Telur Puyuh" class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <div class="p-4">
+                        <h4 class="text-base font-bold text-gray-900 mb-1">Telur Puyuh</h4>
+                        <p class="text-xs text-gray-500 mb-3 line-clamp-2">Kecil namun kaya rasa, sangat populer untuk jajanan & sayur.</p>
+                        <div class="flex justify-between items-center border-t border-gray-100 pt-3 mb-1.5">
+                            <span class="text-[10px] font-medium text-gray-500">Harga Eceran mulai</span>
+                            <span class="text-xs font-bold text-brand-darkgreen">[Harga Harian] /kg</span>
+                        </div>
+                        <div class="flex justify-between items-center">
+                            <span class="text-[10px] font-medium text-gray-500">Grosir / Karung</span>
+                            <span class="text-xs font-bold text-brand-yellow">Hubungi Kami</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="layanan" class="py-16 bg-brand-cream">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="flex flex-col lg:flex-row gap-10 lg:gap-14 items-center">
+                <!-- Left side: Services List -->
+                <div class="w-full lg:w-1/2" data-aos="fade-right">
+                    <h2 class="text-xs font-bold text-brand-yellow uppercase tracking-widest mb-2">Layanan Utama Kami</h2>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Lebih Dari Sekadar Menjual Telur</h3>
+                    
+                    <div class="space-y-5">
+                        <div class="flex gap-4 items-start">
+                            <div class="w-10 h-10 shrink-0 bg-white shadow-sm rounded-full flex items-center justify-center text-brand-green text-lg">
+                                <i class="fas fa-boxes"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-base font-bold text-gray-900">Pembelian Partai Besar (Grosir)</h4>
+                                <p class="text-sm text-gray-600 mt-1 leading-relaxed">Layanan suplai rutin dengan harga khusus distributor untuk agen kecil, supermarket, dan pabrik makanan.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div class="w-10 h-10 shrink-0 bg-white shadow-sm rounded-full flex items-center justify-center text-brand-yellow text-lg">
+                                <i class="fas fa-box-open"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-base font-bold text-gray-900">Penyediaan Kemasan (Tray & Dus)</h4>
+                                <p class="text-sm text-gray-600 mt-1 leading-relaxed">Kami menyediakan tray karton, tray plastik, hingga kardus pelindung khusus untuk pengemasan yang aman dan higienis.</p>
+                            </div>
+                        </div>
+                        <div class="flex gap-4 items-start">
+                            <div class="w-10 h-10 shrink-0 bg-white shadow-sm rounded-full flex items-center justify-center text-brand-green text-lg">
+                                <i class="fas fa-map-location-dot"></i>
+                            </div>
+                            <div>
+                                <h4 class="text-base font-bold text-gray-900">Distribusi & Pengiriman Area Semarang</h4>
+                                <p class="text-sm text-gray-600 mt-1 leading-relaxed">Layanan antar jemput (delivery) ke lokasi bisnis Anda. Menjangkau seluruh kecamatan di area Semarang dengan aman dan cepat.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right side: Operational Gallery (5 Slots) -->
+                <div class="w-full lg:w-1/2" data-aos="fade-left">
+                    <div class="grid grid-cols-2 gap-3">
+                        <div class="col-span-2">
+                            <div class="relative group rounded-xl overflow-hidden shadow-sm">
+                                <img src="gambarasset/bts1.webp" alt="Gudang Telur" class="w-full h-56 md:h-72 object-cover group-hover:scale-105 transition-transform duration-500">
+                                <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-3">
+                                    <p class="text-white text-sm font-semibold">Gudang Penyimpanan Terpusat</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="relative group rounded-xl overflow-hidden shadow-sm">
+                            <img src="gambarasset/bts2.webp" alt="Proses Sortir" class="w-full h-40 md:h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-2.5">
+                                <p class="text-white text-xs font-semibold">Proses Sortir Ketat</p>
+                            </div>
+                        </div>
+                        <div class="relative group rounded-xl overflow-hidden shadow-sm">
+                            <img src="gambarasset/bts3.webp" alt="Proses Pengemasan" class="w-full h-40 md:h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-2.5">
+                                <p class="text-white text-xs font-semibold">Pengemasan Aman</p>
+                            </div>
+                        </div>
+                        <div class="relative group rounded-xl overflow-hidden shadow-sm">
+                            <img src="gambarasset/bts4.webp" alt="Armada Pengiriman" class="w-full h-40 md:h-48 object-cover group-hover:scale-105 transition-transform duration-500">
+                            <div class="absolute bottom-0 left-0 w-full bg-gradient-to-t from-black/70 to-transparent p-2.5">
+                                <p class="text-white text-xs font-semibold">Armada Siap Jalan</p>
+                            </div>
+                        </div>
+                        <div class="relative group rounded-xl overflow-hidden shadow-sm bg-brand-green flex flex-col justify-center items-center text-white p-3 hover:bg-brand-darkgreen transition-colors cursor-pointer h-40 md:h-48" onclick="window.open('https://wa.me/6289529605601', '_blank')">
+                            <i class="fab fa-whatsapp text-2xl mb-1.5"></i>
+                            <p class="font-bold text-center text-[10px] leading-tight">Lihat Lebih Lanjut<br>di Katalog WA</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pemesanan" class="py-16 bg-yellow-50 border-t border-yellow-100">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="text-center max-w-2xl mx-auto mb-12" data-aos="fade-up">
+                <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-3">Informasi Pemesanan & Pengiriman</h2>
+                <p class="text-sm md:text-base text-gray-600">Sistem pembelian transparan yang disesuaikan untuk kemudahan operasional bisnis maupun kebutuhan rumah tangga Anda.</p>
+            </div>
+
+            <!-- Pricing Policy Cards -->
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 max-w-4xl mx-auto">
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-brand-green" data-aos="fade-up">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Pembelian Grosir / B2B</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-600 mt-3">
+                        <li class="flex gap-2"><i class="fas fa-check text-brand-green mt-0.5"></i> <span><strong>Minimal Order:</strong> [Tentukan jumlah, misal: 10 Peti]</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-brand-green mt-0.5"></i> <span><strong>Harga:</strong> Harga Distributor (Fluktuatif sesuai pasar)</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-brand-green mt-0.5"></i> <span><strong>Pengiriman:</strong> Layanan antar gratis area [Nama Area].</span></li>
+                    </ul>
+                </div>
+                <div class="bg-white p-6 rounded-xl shadow-sm border-l-4 border-brand-yellow" data-aos="fade-up" data-aos-delay="100">
+                    <h4 class="text-lg font-bold text-gray-900 mb-2">Pembelian Eceran / Ritel</h4>
+                    <ul class="space-y-2.5 text-sm text-gray-600 mt-3">
+                        <li class="flex gap-2"><i class="fas fa-check text-brand-yellow mt-0.5"></i> <span><strong>Minimal Order:</strong> Tidak ada minimum (Mulai 1 kg)</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-brand-yellow mt-0.5"></i> <span><strong>Harga:</strong> Harga pasaran kompetitif.</span></li>
+                        <li class="flex gap-2"><i class="fas fa-check text-brand-yellow mt-0.5"></i> <span><strong>Pembelian:</strong> Datang langsung ke gudang / kurir instant.</span></li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- How to Order Steps -->
+            <div class="max-w-4xl mx-auto">
+                <h3 class="text-xl font-bold text-center text-gray-900 mb-8">4 Langkah Mudah Pesan Telur</h3>
+                <div class="grid grid-cols-1 md:grid-cols-4 gap-4 relative">
+                    <!-- Line connector (Desktop only) -->
+                    <div class="hidden md:block absolute top-1/2 left-0 w-full h-0.5 bg-gray-200 -z-10 -translate-y-1/2"></div>
+                    
+                    <!-- Step 1 -->
+                    <div class="text-center bg-white md:bg-transparent p-5 md:p-0 rounded-xl shadow-sm md:shadow-none" data-aos="fade-up" data-aos-delay="100">
+                        <div class="w-12 h-12 bg-brand-green text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3 border-4 border-yellow-50 shadow-sm">1</div>
+                        <h4 class="font-bold text-gray-900 text-base mb-1.5">Hubungi Admin</h4>
+                        <p class="text-xs text-gray-600">Klik tombol WhatsApp untuk cek stok dan harga update hari ini.</p>
+                    </div>
+                    <!-- Step 2 -->
+                    <div class="text-center bg-white md:bg-transparent p-5 md:p-0 rounded-xl shadow-sm md:shadow-none" data-aos="fade-up" data-aos-delay="200">
+                        <div class="w-12 h-12 bg-brand-green text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3 border-4 border-yellow-50 shadow-sm">2</div>
+                        <h4 class="font-bold text-gray-900 text-base mb-1.5">Proses & Order</h4>
+                        <p class="text-xs text-gray-600">Tentukan jenis telur, jumlah pesanan, dan rincian total biaya.</p>
+                    </div>
+                    <!-- Step 3 -->
+                    <div class="text-center bg-white md:bg-transparent p-5 md:p-0 rounded-xl shadow-sm md:shadow-none" data-aos="fade-up" data-aos-delay="300">
+                        <div class="w-12 h-12 bg-brand-green text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3 border-4 border-yellow-50 shadow-sm">3</div>
+                        <h4 class="font-bold text-gray-900 text-base mb-1.5">Pembayaran</h4>
+                        <p class="text-xs text-gray-600">Lakukan pembayaran via Transfer Bank atau opsi COD (syarat berlaku).</p>
+                    </div>
+                    <!-- Step 4 -->
+                    <div class="text-center bg-white md:bg-transparent p-5 md:p-0 rounded-xl shadow-sm md:shadow-none" data-aos="fade-up" data-aos-delay="400">
+                        <div class="w-12 h-12 bg-brand-yellow text-white rounded-full flex items-center justify-center text-lg font-bold mx-auto mb-3 border-4 border-yellow-50 shadow-sm">4</div>
+                        <h4 class="font-bold text-gray-900 text-base mb-1.5">Telur Dikirim</h4>
+                        <p class="text-xs text-gray-600">Pesanan dikemas dengan aman dan langsung diantar ke alamat Anda.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10" data-aos="zoom-in">
+                <a href="https://wa.me/6289529605601?text=Halo%20PT.%20ARTA%20OVENTA%20TELUR,%20saya%20ingin%20melakukan%20pemesanan." target="_blank" class="inline-flex items-center justify-center gap-2 px-6 py-3 bg-brand-yellow hover:bg-brand-darkyellow text-white rounded-full font-bold shadow-lg shadow-yellow-500/30 transition-all transform hover:-translate-y-1 text-sm md:text-base">
+                    <i class="fab fa-whatsapp text-xl"></i> Mulai Pemesanan
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="flex flex-col lg:flex-row gap-12">
+                
+                <!-- Testimonials -->
+                <div class="w-full lg:w-1/2" data-aos="fade-right">
+                    <h2 class="text-xs font-bold text-brand-green uppercase tracking-widest mb-2">Testimoni Pelanggan</h2>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Apa Kata Mitra Kami?</h3>
+                    
+                    <div class="space-y-4">
+                        <!-- Review 1 -->
+                        <div class="bg-gray-50 p-5 rounded-xl border border-gray-100">
+                            <div class="flex items-center gap-3 mb-3">
+                                <img src="https://placehold.co/100x100/e2e8f0/64748b?text=B" alt="User" class="w-10 h-10 rounded-full">
+                                <div>
+                                    <h5 class="text-sm font-bold text-gray-900">Bapak Budi (Pemilik Warung)</h5>
+                                    <div class="flex text-brand-yellow text-xs mt-0.5">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">"Sudah berlangganan lebih dari setahun. Telurnya selalu segar, jarang sekali ada yang pecah karena packingnya sangat rapi. Harganya juga miring cocok untuk dijual lagi."</p>
+                        </div>
+                        <!-- Review 2 -->
+                        <div class="bg-gray-50 p-5 rounded-xl border border-gray-100">
+                            <div class="flex items-center gap-3 mb-3">
+                                <img src="https://placehold.co/100x100/e2e8f0/64748b?text=I" alt="User" class="w-10 h-10 rounded-full">
+                                <div>
+                                    <h5 class="text-sm font-bold text-gray-900">Ibu Ratna (Pengusaha Katering)</h5>
+                                    <div class="flex text-brand-yellow text-xs mt-0.5">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">"Sangat terbantu dengan layanan antarnya. Kalau butuh mendadak, adminnya responsif dan telur langsung dikirim. Kualitas kuning telurnya bagus."</p>
+                        </div>
+                        <!-- Review 3 -->
+                        <div class="bg-gray-50 p-5 rounded-xl border border-gray-100">
+                            <div class="flex items-center gap-3 mb-3">
+                                <img src="https://placehold.co/100x100/e2e8f0/64748b?text=A" alt="User" class="w-10 h-10 rounded-full">
+                                <div>
+                                    <h5 class="text-sm font-bold text-gray-900">Anton (Manager Restoran)</h5>
+                                    <div class="flex text-brand-yellow text-xs mt-0.5">
+                                        <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star-half-alt"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="text-sm text-gray-600 italic">"Sebagai restoran, kami butuh suplai yang stabil. PT. ARTA OVENTA TELUR tidak pernah mengecewakan. Stok selalu ada dan harganya fair."</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ (Frequently Asked Questions) -->
+                <div class="w-full lg:w-1/2" data-aos="fade-left">
+                    <h2 class="text-xs font-bold text-brand-yellow uppercase tracking-widest mb-2">FAQ / Social Proof</h2>
+                    <h3 class="text-2xl md:text-3xl font-bold text-gray-900 mb-6">Pertanyaan Populer</h3>
+                    
+                    <div class="space-y-3">
+                        <!-- Accordion 1 -->
+                        <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between gap-1.5 p-4 text-gray-900 cursor-pointer text-sm font-bold bg-gray-50 hover:bg-gray-100">
+                                Apakah harga bisa kurang jika pesan partai besar?
+                                <span class="transition duration-300 group-open:-rotate-180">
+                                    <i class="fas fa-chevron-down text-brand-green"></i>
+                                </span>
+                            </summary>
+                            <div class="p-4 border-t border-gray-100 text-sm text-gray-600">
+                                Tentu! Kami memberikan harga khusus distributor yang sangat miring untuk pembelian partai besar. Silakan hubungi WA admin untuk negosiasi.
+                            </div>
+                        </details>
+                        <!-- Accordion 2 -->
+                        <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between gap-1.5 p-4 text-gray-900 cursor-pointer text-sm font-bold bg-gray-50 hover:bg-gray-100">
+                                Bagaimana jika ada telur yang pecah atau busuk?
+                                <span class="transition duration-300 group-open:-rotate-180">
+                                    <i class="fas fa-chevron-down text-brand-green"></i>
+                                </span>
+                            </summary>
+                            <div class="p-4 border-t border-gray-100 text-sm text-gray-600">
+                                Kami menjamin kualitas. Jika ada telur yang busuk saat dipecah di hari penerimaan, harap divideokan. Kami memberikan kebijakan retur sesuai kesepakatan awal untuk pelanggan setia.
+                            </div>
+                        </details>
+                        <!-- Accordion 3 -->
+                        <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between gap-1.5 p-4 text-gray-900 cursor-pointer text-sm font-bold bg-gray-50 hover:bg-gray-100">
+                                Apakah melayani pengiriman ke luar kota (luar Semarang)?
+                                <span class="transition duration-300 group-open:-rotate-180">
+                                    <i class="fas fa-chevron-down text-brand-green"></i>
+                                </span>
+                            </summary>
+                            <div class="p-4 border-t border-gray-100 text-sm text-gray-600">
+                                Fokus pengiriman utama kami area Semarang dan sekitarnya. Untuk luar provinsi, kami melayani sistem ambil di tempat (pick-up) oleh ekspedisi pembeli sendiri.
+                            </div>
+                        </details>
+                        <!-- Accordion 4 -->
+                        <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between gap-1.5 p-4 text-gray-900 cursor-pointer text-sm font-bold bg-gray-50 hover:bg-gray-100">
+                                Apakah bisa sistem pembayaran tempo / bon?
+                                <span class="transition duration-300 group-open:-rotate-180">
+                                    <i class="fas fa-chevron-down text-brand-green"></i>
+                                </span>
+                            </summary>
+                            <div class="p-4 border-t border-gray-100 text-sm text-gray-600">
+                                Untuk pembeli baru, sistem pembayaran adalah Cash/Transfer saat pesanan dikirim. Sistem tempo dapat dibicarakan setelah berlangganan rutin minimal 3 bulan.
+                            </div>
+                        </details>
+                        <!-- Accordion 5 -->
+                        <details class="group border border-gray-200 rounded-lg bg-white overflow-hidden [&_summary::-webkit-details-marker]:hidden">
+                            <summary class="flex items-center justify-between gap-1.5 p-4 text-gray-900 cursor-pointer text-sm font-bold bg-gray-50 hover:bg-gray-100">
+                                Jam berapa operasional gudang dan pengiriman?
+                                <span class="transition duration-300 group-open:-rotate-180">
+                                    <i class="fas fa-chevron-down text-brand-green"></i>
+                                </span>
+                            </summary>
+                            <div class="p-4 border-t border-gray-100 text-sm text-gray-600">
+                                Jam operasional gudang kami adalah [Jam Buka] s/d [Jam Tutup] WIB. Pesanan sebelum jam [Batas Waktu] diupayakan dikirim di hari yang sama.
+                            </div>
+                        </details>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="bg-white rounded-2xl overflow-hidden shadow-sm flex flex-col lg:flex-row border border-gray-200" data-aos="zoom-in">
+                <!-- Text / Address info -->
+                <div class="w-full lg:w-1/3 p-6 lg:p-10 flex flex-col justify-center bg-brand-darkgreen text-white">
+                    <h3 class="text-xl font-bold mb-5">Lokasi Perusahaan</h3>
+                    
+                    <div class="space-y-5">
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-building text-brand-yellow mt-1 text-lg"></i>
+                            <div>
+                                <p class="font-bold text-base">PT. ARTA OVENTA TELUR</p>
+                                <p class="text-green-100 text-sm mt-0.5">Gudang Distribusi Utama Semarang</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-map-marker-alt text-brand-yellow mt-1 text-lg"></i>
+                            <div>
+                                <p class="font-semibold text-white text-sm">Alamat Lengkap:</p>
+                                <p class="text-green-100 text-xs mt-1 leading-relaxed">[Masukkan Alamat Jalan Lengkap, Kelurahan, Kecamatan], Kota Semarang, Jawa Tengah, [Kode Pos].</p>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fas fa-clock text-brand-yellow mt-1 text-lg"></i>
+                            <div>
+                                <p class="font-semibold text-white text-sm">Jam Operasional:</p>
+                                <p class="text-green-100 text-xs mt-1">Senin - Sabtu: [Jam Buka] - [Jam Tutup]</p>
+                                <p class="text-green-100 text-xs">Minggu / Merah: [Tutup/Buka Setengah Hari]</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a href="https://maps.google.com/?q=Semarang" target="_blank" class="mt-8 bg-brand-yellow hover:bg-brand-darkyellow text-center text-white px-5 py-2.5 rounded-lg font-bold transition-colors w-full text-sm">
+                        <i class="fas fa-location-arrow mr-2"></i> Buka di Google Maps
+                    </a>
+                </div>
+                
+                <!-- Google Maps iFrame -->
+                <div class="w-full lg:w-2/3 h-64 lg:h-auto min-h-[350px]">
+                    <iframe 
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126715.79606830588!2d110.33982531649191!3d-6.993215286237198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708b4d3f0d024d%3A0x1e0432b9da5cb9f2!2sSemarang%2C%20Kota%20Semarang%2C%20Jawa%20Tengah!5e0!3m2!1sid!2sid!4v1700000000000!5m2!1sid!2sid" 
+                        width="100%" 
+                        height="100%" 
+                        style="border:0;" 
+                        allowfullscreen="" 
+                        loading="lazy" 
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Garis Pembatas Footer -->
+    <div class="h-1.5 w-full bg-gradient-to-r from-brand-green via-brand-yellow to-brand-green"></div>
+
+    <footer class="bg-gray-900 text-gray-300 pt-12 pb-6">
+        <div class="max-w-7xl mx-auto px-6 sm:px-10 lg:px-16 xl:px-24">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+                <!-- Branding Info -->
+                <div class="lg:col-span-1">
+                    <div class="flex items-center gap-2.5 mb-4">
+                        <img src="gambarasset/logo.webp" alt="Logo PT. ARTA OVENTA TELUR" class="w-9 h-9 rounded-full object-cover">
+                        <span class="font-bold text-base leading-none text-white tracking-tight">PT. ARTA OVENTA TELUR</span>
+                    </div>
+                    <p class="text-xs text-gray-400 leading-relaxed mb-5">
+                        Menjadi mitra distributor telur ayam dan unggas lainnya yang paling dipercaya di Semarang untuk memenuhi kebutuhan gizi masyarakat serta mendukung operasional bisnis kuliner Anda.
+                    </p>
+                    <div class="flex gap-3">
+                        <a href="https://www.instagram.com/solusilokal.id/" target="_blank" class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center text-sm hover:bg-gradient-to-tr hover:from-yellow-400 hover:to-purple-600 hover:text-white transition-all">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://www.tiktok.com/@solusilokal.id" target="_blank" class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center text-sm hover:bg-black hover:text-white transition-all">
+                            <i class="fab fa-tiktok"></i>
+                        </a>
+                        <a href="https://wa.me/6289529605601" target="_blank" class="w-9 h-9 rounded-full bg-gray-800 flex items-center justify-center text-sm hover:bg-brand-green hover:text-white transition-all">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Tautan Cepat -->
+                <div>
+                    <h4 class="text-white font-bold text-[15px] mb-4">Tautan Cepat</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#profil" class="text-xs hover:text-brand-yellow transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[10px]"></i> Profil Usaha</a></li>
+                        <li><a href="#produk" class="text-xs hover:text-brand-yellow transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[10px]"></i> Katalog Telur</a></li>
+                        <li><a href="#layanan" class="text-xs hover:text-brand-yellow transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[10px]"></i> Layanan Kami</a></li>
+                        <li><a href="#pemesanan" class="text-xs hover:text-brand-yellow transition-colors flex items-center gap-2"><i class="fas fa-angle-right text-[10px]"></i> Cara Pemesanan</a></li>
+                    </ul>
+                </div>
+
+                <!-- Katalog Telur -->
+                <div>
+                    <h4 class="text-white font-bold text-[15px] mb-4">Produk Kami</h4>
+                    <ul class="space-y-2">
+                        <li><span class="text-xs text-gray-400 flex items-center gap-2"><i class="fas fa-egg text-[10px] text-brand-green"></i> Telur Ayam Negeri</span></li>
+                        <li><span class="text-xs text-gray-400 flex items-center gap-2"><i class="fas fa-egg text-[10px] text-brand-green"></i> Telur Ayam Kampung</span></li>
+                        <li><span class="text-xs text-gray-400 flex items-center gap-2"><i class="fas fa-egg text-[10px] text-brand-green"></i> Telur Omega 3</span></li>
+                        <li><span class="text-xs text-gray-400 flex items-center gap-2"><i class="fas fa-egg text-[10px] text-brand-green"></i> Telur Bebek</span></li>
+                        <li><span class="text-xs text-gray-400 flex items-center gap-2"><i class="fas fa-egg text-[10px] text-brand-green"></i> Telur Puyuh</span></li>
+                    </ul>
+                </div>
+
+                <!-- Kontak -->
+                <div>
+                    <h4 class="text-white font-bold text-base mb-4">Hubungi Kami</h4>
+                    <ul class="space-y-3">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fas fa-map-marker-alt text-brand-yellow mt-0.5 text-sm"></i>
+                            <span class="text-xs">[Alamat Jalan Lengkap, Semarang]</span>
+                        </li>
+                        <li class="flex items-center gap-2.5">
+                            <i class="fab fa-whatsapp text-brand-green text-base"></i>
+                            <a href="https://wa.me/6289529605601" target="_blank" class="hover:text-white transition-colors text-base font-bold">0895-2960-5601</a>
+                        </li>
+                    </ul>
+                    
+                    <div class="mt-5">
+                        <a href="https://wa.me/6289529605601?text=Halo,%20saya%20tertarik%20dengan%20produk%20telur%20Anda." target="_blank" class="w-full block text-center bg-brand-green hover:bg-brand-darkgreen text-white py-2.5 rounded-lg font-bold transition-colors text-sm">
+                            Kirim Pesan WA
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pt-6 border-t border-gray-800 flex flex-col md:flex-row justify-between items-center gap-3">
+                <p class="text-xs text-gray-500">
+                    &copy; <span id="currentYear"></span> PT. ARTA OVENTA TELUR. All rights reserved.
+                </p>
+                <p class="text-xs text-gray-500">
+                    Website solusi lokal : Developed by <a href="https://www.solusilokal.id/" target="_blank" class="text-brand-yellow hover:text-white font-semibold transition-colors">SolusiLokal</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize Animate On Scroll
+        AOS.init({
+            duration: 800,
+            once: true,
+            offset: 100,
+        });
+
+        // Set current year in footer
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+
+        // Mobile Menu Toggle
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu on link click
+        const mobileLinks = menu.querySelectorAll('a');
+        mobileLinks.forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+            });
+        });
+
+        // Change Navbar Background on Scroll
+        window.addEventListener('scroll', () => {
+            const header = document.querySelector('header');
+            if (window.scrollY > 10) {
+                header.classList.add('shadow-md');
+                header.classList.replace('glass-nav', 'bg-white');
+            } else {
+                header.classList.remove('shadow-md');
+                header.classList.replace('bg-white', 'glass-nav');
+            }
+        });
+    </script>
+</body>
+</html>
